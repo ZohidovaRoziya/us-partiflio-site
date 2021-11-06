@@ -17,13 +17,22 @@ body{
     padding: 0px 30px;
 }
 
+.clearfix{
+    clear: both;
+}
+
+.to-uppercase{
+    text-transform: uppercase;
+}
+
+/* SITE HEADER CSS Start  */
 .site-logo-wrap{
     display: inline-block;
     vertical-align: middle;
 }
 
 .site-logo-img{
-    width: 64px;
+    width:100px;
     height: 64px;
 }
 
@@ -41,9 +50,8 @@ body{
 .site-nav__list__item_link{
     color:#05364d;
     text-decoration: none;
-    text-transform: uppercase;
     font-style: 12px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .site-nav__list__item_link:hover{
@@ -52,4 +60,92 @@ body{
 
 .site-nav__list__item_link.active{
     color:#efb6df;
+}
+
+/* HERO SECTION Css Start  */
+.hero-section {
+    margin-top: 100px;
+}
+
+.hero-section > div {
+    width: 50%;
+    float: left;
+}
+
+.hero-welcome{
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color:#797979;
+}
+
+.hero-heading{
+    margin: 20px 0px;
+    font-size:60px;
+    font-weight: 500;
+    color: #05364e;
+}
+
+.hero-position{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+
+.hero-social-networks > a{
+    display: inline-block;
+    text-decoration: none;
+    color:#8fa1aa;
+    font-size:20px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.hero-social-networks > a i:hover{
+    color:#1c44e4;
+}
+
+.see-my-work{
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight:500;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#1c44e4;
+}
+
+.hero-img-wrap{
+    text-align: right;
+}
+
+/* STATISTICS SECTIOAN CSS Start  */
+
+.statistics-section{
+    margin-top: 100px;
+}
+
+.statistics-content{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding:5px 10px;
+    background-color:#f8faff;
+    margin-right: 20px;
+}
+
+.statistics__number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+
+.statistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
 }
