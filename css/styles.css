@@ -111,12 +111,16 @@ body {
 
 /* HERO SECTION Css Start  */
 .hero-section {
-  margin-top:200px;
+  margin-top:95px;
 }
 
 .hero-section > div {
   width: 50%;
   float: left;
+}
+
+.hero-wrap{
+  padding-top: 150px;
 }
 
 .hero-welcome {
