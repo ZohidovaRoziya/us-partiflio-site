@@ -31,6 +31,8 @@ body{
     background-color: rgba(237,35,159,0.6);
     filter: blur(4px);
     border-radius: 4px;
+    position: relative;
+    top:-2px;
 }
 
 
@@ -52,6 +54,17 @@ body{
 
 
 /* SITE HEADER CSS Start  */
+
+.site-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index:10;    
+}
+
 .site-logo-wrap{
     display: inline-block;
     vertical-align: middle;
@@ -60,6 +73,7 @@ body{
 .site-logo-img{
     width:100px;
     height: 64px;
+    margin: 10px;
 }
 
 /* SITE HEADER NAV CSS Start  */
@@ -70,7 +84,7 @@ body{
 
 .site-nav__list__item{
     display: inline-block;
-    padding: 10px;
+    padding:20px;
 }
 
 .site-nav__list__item_link{
@@ -278,4 +292,94 @@ body{
 
 .client-item__rate {
     color: #FFD805;
+}
+
+/* PORTFOLIO SECTION CSS Start  */
+
+.portfolio-section{
+    padding: 100px 0px;
+}
+
+.portfolio-filters{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.portfolio-filters li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 13px;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+.portfolio-filters li:hover,
+.portfolio-filters li.active{
+    color:#1345e6;
+}
+
+.portfolio_items{
+    position: relative;
+    margin-top: 50px;
+}
+
+.portfolio_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+}
+
+.portfolio_item-2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.portfolio_item-3{
+    position: absolute;
+    right: 0;
+    top:322px;
+}
+
+.portfolio_item__img{
+    width: 100%;
+}
+
+.portfolio_item_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(19,69,230,0.9);
+    visibility: hidden;
+    z-index: 1;
+}
+
+.portfolio_item:hover .portfolio_item_overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+
+.portfolio_item_info{
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: #fff;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.portfolio_item:hover .portfolio_item_info{
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+}
+
+.portfolio_item_info a{
+    color: #fff;
+    text-decoration: none;
 }
