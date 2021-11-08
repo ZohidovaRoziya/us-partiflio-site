@@ -111,7 +111,7 @@ body {
 
 /* HERO SECTION Css Start  */
 .hero-section {
-  margin-top: 100px;
+  margin-top:200px;
 }
 
 .hero-section > div {
@@ -177,10 +177,6 @@ body {
 }
 
 /* STATISTICS SECTIOAN CSS Start  */
-
-.statistics-section {
-  margin-top: 100px;
-}
 
 .statistics-content {
   display: inline-block;
