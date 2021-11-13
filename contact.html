@@ -17,7 +17,9 @@
 
     <!-- CSS STYLES -->
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css">
   </head>
   <body>
   
@@ -38,7 +40,7 @@
         <nav class="site-nav">
           <ul class="site-nav__list to-uppercase">
             <li class="site-nav__list__item">
-              <a href="#" class="site-nav__list__item_link active">home</a>
+              <a href="./index.html" class="site-nav__list__item_link active">home</a>
             </li>
             <li class="site-nav__list__item">
               <a href="#" class="site-nav__list__item_link">about</a>
@@ -53,15 +55,39 @@
               <a href="#" class="site-nav__list__item_link">Blog</a>
             </li>
             <li class="site-nav__list__item">
-              <a href="#" class="site-nav__list__item_link">contact</a>
+              <a href="./contact.html" class="site-nav__list__item_link">contact</a>
             </li>
+           
           </ul>
         </nav>
     </div>
       </header>
       <!-- SITE HEADER FINISH  -->
+      
 
-      <main></main>
+     <!-- SITE MAIN START   -->
+      <main>
+
+        <div class="container">
+            <div class="contact">
+              <div class="section-title">Get In Touch</div>
+              <form action="/server.php" method="GET">
+                <textarea name="messege" rows="10" placeholder="Enter Massege"></textarea>
+                <div class="half-row contact__firstname">
+                  <input type="text" name="firsname" placeholder="Entir your name">
+                </div>
+                <div class="half-row contact__email">
+                  <input type="email" name="email" placeholder="Enter email address">
+                </div>
+                <input type="text" name="subject" placeholder="Enter Subject">
+                <button type="submit" class="site-button contact_send">Send Massege</button>
+              </form>
+            </div>
+        </div>
+
+      </main>
+     <!-- SITE MAIN FINSH   -->
+
 
       <!-- SITE FOOTER Start  -->
       <footer class="site-footer">
