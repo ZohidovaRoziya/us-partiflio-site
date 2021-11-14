@@ -13,7 +13,7 @@ main {
 
 /* HERO SECTION Css Start  */
 .hero-section {
-  margin-top: 95px;
+  padding: 7.5rem 1.875rem;   /* 1) 120 / 16 = 7.5rem    2) 30 / 16 = 1.875 */
 }
 
 .hero-section > div {
@@ -26,24 +26,24 @@ main {
 }
 
 .hero-welcome {
-  font-size: 20px;
+  font-size: 1.25rem;  /* 20 /16 = 1.25rem */
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;  /* 20 /16 = 1.25rem */
   letter-spacing: 2px;
   color: #797979;
 }
 
 .hero-heading {
-  margin: 20px 0px;
-  font-size: 60px;
+  margin: 1.25rem 0;  /* 20 /16 = 1.25rem */
+  font-size:3.75rem; /* 60 / 16 = 3.75rem */
   font-weight: 500;
   color: #05364e;
 }
 
 .hero-position {
-  font-size: 26px;
+  font-size:1.625rem; /* 26 / 16 = 1.625 rem */
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;  /* 20 /16 = 1.25rem */
   color: #05364e;
 }
 
@@ -51,8 +51,8 @@ main {
   display: inline-block;
   text-decoration: none;
   color: #8fa1aa;
-  font-size: 20px;
-  margin-right: 16px;
+  font-size: 1.25rem;  /* 20 /16 = 1.25rem */
+  margin-right:1rem; /* 16 / 16 = 1rem */
   cursor: pointer;
 }
 
@@ -70,21 +70,21 @@ main {
   display: inline-block;
   width: 150px;
   text-align: center;
-  padding: 5px 10px;
+  padding: 0.32rem 0.625rem;  /* 1) 5 / 16 = 0.3125rem 2) 10 / 0.625rem */
   background-color: #f8faff;
-  margin-right: 20px;
+  margin-right:1.25rem;  /* 20 /16 = 1.25rem */
 }
 
 .statistics__number {
-  font-size: 27px;
-  margin-bottom: 5px;
+  font-size:1.69rem;
+  margin-bottom:0.32rem;
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .statistics__title {
-  font-size: 16px;
+  font-size:1rem;
   color: #797979;
   font-weight: 300;
 }
@@ -92,7 +92,7 @@ main {
 /* ABOUTE ME SECTION CSS Start   */
 
 .abouteMe-section {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .abouteMe-section > div {
@@ -105,36 +105,36 @@ main {
 }
 
 .aboutMe-description {
-  font-size: 14px;
+  font-size:0.874rem;
   font-weight: 300;
   color: #797979;
-  line-height: 27px;
+  line-height:1.69rem;
 }
 
 /* SERVICES SECTION CSS START  */
 
 .services-section {
-  margin-top: 40px;
+  margin-top:2.5rem;
 }
 
 .services__card {
   display: inline-block;
   width: 30%;
-  padding: 60px 30px;
+  padding: 3.75rem 1.87rem;
   background-color: #f8faff;
   margin-right: 3%;
   text-align: center;
 }
 
 .services__card__description {
-  font-size: 14px;
-  line-height: 27px;
+  font-size:0.88rem;
+  line-height:1.69rem;
   font-weight: 300;
   color: #797979;
 }
 
 .services__card__link {
-  font-size: 13px;
+  font-size:0.82rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #05364d;
@@ -154,7 +154,7 @@ main {
 /* CLIENT SECTION CSS Start   */
 
 .clients-section {
-  padding-top: 100px;
+  padding-top:6.25rem;
 }
 
 .clients_list > div {
@@ -167,24 +167,24 @@ main {
 }
 
 .client-item-info {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding-top:3.125rem;
+  padding-left:3.125rem;
 }
 
 .client-info-name {
-  font-size: 20px;
+  font-size:1.25rem;
   margin-bottom: 4px;
 }
 
 .client-info-position {
-  font-size: 14px;
+  font-size:0.88rem;
   font-weight: 300;
   color: #5b6d75;
 }
 
 .client-info-review {
-  font-size: 14px;
-  line-height: 27px;
+  font-size:0.88rem;
+  line-height:1.69rem;
   font-weight: 300;
   color: #5b6d75;
 }
@@ -202,12 +202,12 @@ main {
 .portfolio-filters {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .portfolio-filters li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right:2.5rem;
   font-size: 13px;
   text-transform: uppercase;
   cursor: pointer;
@@ -219,7 +219,7 @@ main {
 
 .portfolio_items {
   position: relative;
-  margin-top: 50px;
+  margin-top:3.125rem;
 }
 
 .portfolio_item {
@@ -227,7 +227,7 @@ main {
   display: inline-block;
   cursor: pointer;
   width: 50%;
-  padding: 10px;
+  padding:0.625rem;
 }
 
 .portfolio_item-2 {
@@ -239,7 +239,7 @@ main {
 .portfolio_item-3 {
   position: absolute;
   right: 0;
-  top: 322px;
+  top:20.125rem;
 }
 
 .portfolio_item__img {
@@ -259,8 +259,8 @@ main {
 
 .portfolio_item:hover .portfolio_item_overlay {
   visibility: visible;
-  top: 20px;
-  left: 20px;
+  top:1.25rem;
+  left:1.25rem;
 }
 
 .portfolio_item_info {
@@ -286,11 +286,11 @@ main {
 /* BLOG SECTION CSS Start   */
 
 .blog-section {
-  padding-top: 50px;
+  padding-top:3.125rem;
 }
 
 .blog-items {
-  margin-top: 50px;
+  margin-top:3.125rem;
 }
 
 .blog-item {
@@ -314,13 +314,13 @@ main {
 
 .blog-item-info {
   background-color: #f8faf8;
-  padding: 30px;
+  padding: 1.875rem;
   color: #797979;
 }
 
 .blog-item-main-info span {
   font-size: 14px;
-  margin-right: 30px;
+  margin-right:1.875rem;
   font-weight: lighter;
 }
 
@@ -329,21 +329,21 @@ main {
 }
 
 .blog-item-titile {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  font-size:1.25rem;
+  margin-top:1.25rem;
+  margin-bottom:0.94rem;
   color: #05364d;
   font-weight: 700;
 }
 
 .blog-item__description {
-  font-size: 15px;
-  line-height: 27px;
+  font-size: 0.64rem;
+  line-height:1.69rem;
   font-weight: lighter;
 }
 
 .blog-item-link {
-  font-size: 13px;
+  font-size: 0.82rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #05364d;
@@ -357,14 +357,11 @@ main {
 /* PARTNERS SECTION CSS Start  */
 
 .partners-section {
-  padding-top: 100px;
+  padding-top:6.25rem;
 }
 
 .partner {
   display: inline-block;
-  padding: 0 30px;
+  padding: 0 1.875rem;
 }
 
-footer{
-  background-color: blue;
-}
