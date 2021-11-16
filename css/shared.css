@@ -125,8 +125,96 @@
     color: #efb6df;
   }
 
-  /* SITE MAIN CSS START */
 
+  /* SITE MAIN CSS START */
 main {
     flex-grow: 1;
+}
+
+/* SITE FOOTER CSS Start   */
+.site-footer {
+  margin-top: 3.125rem;
+  padding: 3.125rem 0;
+  background-color: #021017;
+  text-align: center;
+}
+
+.footer__brand img{
+  width: 100px;
+  height: 64px;
+}
+
+.footer-nav__list{
+  margin-bottom:3.125rem;
+}
+
+.footer-nav__list__item{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.footer-nav__list__item_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-socials {
+  list-style-type: none;
+}
+
+.footer__social {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 36px;
+  color: #05364d;
+  font-size:1rem;
+  margin-right: 12px;
+}
+
+.footer__social:hover{
+  background: linear-gradient(90deg, #1345eb 0%, #ed239f 100%);
+}
+
+.footer__social:hover i{
+  color: #fff;
+}
+
+.footer__social__link{
+  color:#021017;
+}
+
+.fab {
+  color:#021017;
+}
+
+.footer__text{
+  padding-top:1.25rem;
+  color: #797979;
+}
+
+/* MEDIA QUERIES CSS Start */
+@media only screen and (max-width:991px){
+  .container{
+    width:90%;
+  }
+
+  /* SITE NAV Section responsive start */
+  .site-nav {
+    display: none;
+  }
+
+   /* SITE FOOTER Section responsive start */
+  .footer-nav{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .container{
+    width:92%;
+  }
 }

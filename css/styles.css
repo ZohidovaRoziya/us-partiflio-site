@@ -1,5 +1,4 @@
 /* SITE MAIN CSS START */
-
 main {
   flex-grow: 1;
 }
@@ -13,7 +12,7 @@ main {
 
 /* HERO SECTION Css Start  */
 .hero-section {
-  padding: 7.5rem 1.875rem;   /* 1) 120 / 16 = 7.5rem    2) 30 / 16 = 1.875 */
+  padding: 7.5rem 1.875rem; /* 1) 120 / 16 = 7.5rem    2) 30 / 16 = 1.875 */
 }
 
 .hero-section > div {
@@ -26,24 +25,24 @@ main {
 }
 
 .hero-welcome {
-  font-size: 1.25rem;  /* 20 /16 = 1.25rem */
+  font-size: 1.25rem; /* 20 /16 = 1.25rem */
   font-weight: 400;
-  margin-bottom: 1.25rem;  /* 20 /16 = 1.25rem */
+  margin-bottom: 1.25rem; /* 20 /16 = 1.25rem */
   letter-spacing: 2px;
   color: #797979;
 }
 
 .hero-heading {
-  margin: 1.25rem 0;  /* 20 /16 = 1.25rem */
-  font-size:3.75rem; /* 60 / 16 = 3.75rem */
+  margin: 1.25rem 0; /* 20 /16 = 1.25rem */
+  font-size: 3.75rem; /* 60 / 16 = 3.75rem */
   font-weight: 500;
   color: #05364e;
 }
 
 .hero-position {
-  font-size:1.625rem; /* 26 / 16 = 1.625 rem */
+  font-size: 1.625rem; /* 26 / 16 = 1.625 rem */
   font-weight: 300;
-  margin-bottom: 1.25rem;  /* 20 /16 = 1.25rem */
+  margin-bottom: 1.25rem; /* 20 /16 = 1.25rem */
   color: #05364e;
 }
 
@@ -51,9 +50,13 @@ main {
   display: inline-block;
   text-decoration: none;
   color: #8fa1aa;
-  font-size: 1.25rem;  /* 20 /16 = 1.25rem */
-  margin-right:1rem; /* 16 / 16 = 1rem */
+  font-size: 1.25rem; /* 20 /16 = 1.25rem */
+  margin-right: 1rem; /* 16 / 16 = 1rem */
   cursor: pointer;
+}
+
+.hero-social-networks > a i{
+  color: #05364d;
 }
 
 .hero-social-networks > a i:hover {
@@ -65,32 +68,30 @@ main {
 }
 
 /* STATISTICS SECTIOAN CSS Start  */
-
 .statistics-content {
   display: inline-block;
   width: 150px;
   text-align: center;
-  padding: 0.32rem 0.625rem;  /* 1) 5 / 16 = 0.3125rem 2) 10 / 0.625rem */
+  padding: 0.32rem 0.625rem; /* 1) 5 / 16 = 0.3125rem 2) 10 / 0.625rem */
   background-color: #f8faff;
-  margin-right:1.25rem;  /* 20 /16 = 1.25rem */
+  margin-right: 1.25rem; /* 20 /16 = 1.25rem */
 }
 
 .statistics__number {
-  font-size:1.69rem;
-  margin-bottom:0.32rem;
+  font-size: 1.69rem;
+  margin-bottom: 0.32rem;
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .statistics__title {
-  font-size:1rem;
+  font-size: 1rem;
   color: #797979;
   font-weight: 300;
 }
 
 /* ABOUTE ME SECTION CSS Start   */
-
 .abouteMe-section {
   padding: 6.25rem 0;
 }
@@ -105,16 +106,15 @@ main {
 }
 
 .aboutMe-description {
-  font-size:0.874rem;
+  font-size: 0.874rem;
   font-weight: 300;
   color: #797979;
-  line-height:1.69rem;
+  line-height: 1.69rem;
 }
 
 /* SERVICES SECTION CSS START  */
-
 .services-section {
-  margin-top:2.5rem;
+  margin-top: 2.5rem;
 }
 
 .services__card {
@@ -127,14 +127,14 @@ main {
 }
 
 .services__card__description {
-  font-size:0.88rem;
-  line-height:1.69rem;
+  font-size: 0.88rem;
+  line-height: 1.69rem;
   font-weight: 300;
   color: #797979;
 }
 
 .services__card__link {
-  font-size:0.82rem;
+  font-size: 0.82rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #05364d;
@@ -152,9 +152,8 @@ main {
 }
 
 /* CLIENT SECTION CSS Start   */
-
 .clients-section {
-  padding-top:6.25rem;
+  padding-top: 6.25rem;
 }
 
 .clients_list > div {
@@ -167,24 +166,24 @@ main {
 }
 
 .client-item-info {
-  padding-top:3.125rem;
-  padding-left:3.125rem;
+  padding-top: 3.125rem;
+  padding-left: 3.125rem;
 }
 
 .client-info-name {
-  font-size:1.25rem;
+  font-size: 1.25rem;
   margin-bottom: 4px;
 }
 
 .client-info-position {
-  font-size:0.88rem;
+  font-size: 0.88rem;
   font-weight: 300;
   color: #5b6d75;
 }
 
 .client-info-review {
-  font-size:0.88rem;
-  line-height:1.69rem;
+  font-size: 0.88rem;
+  line-height: 1.69rem;
   font-weight: 300;
   color: #5b6d75;
 }
@@ -194,7 +193,6 @@ main {
 }
 
 /* PORTFOLIO SECTION CSS Start  */
-
 .portfolio-section {
   padding: 100px 0px;
 }
@@ -207,7 +205,7 @@ main {
 
 .portfolio-filters li {
   display: inline-block;
-  margin-right:2.5rem;
+  margin-right: 2.5rem;
   font-size: 13px;
   text-transform: uppercase;
   cursor: pointer;
@@ -219,7 +217,7 @@ main {
 
 .portfolio_items {
   position: relative;
-  margin-top:3.125rem;
+  margin-top: 3.125rem;
 }
 
 .portfolio_item {
@@ -227,7 +225,7 @@ main {
   display: inline-block;
   cursor: pointer;
   width: 50%;
-  padding:0.625rem;
+  padding: 0.625rem;
 }
 
 .portfolio_item-2 {
@@ -239,7 +237,7 @@ main {
 .portfolio_item-3 {
   position: absolute;
   right: 0;
-  top:20.125rem;
+  top: 20.125rem;
 }
 
 .portfolio_item__img {
@@ -259,8 +257,8 @@ main {
 
 .portfolio_item:hover .portfolio_item_overlay {
   visibility: visible;
-  top:1.25rem;
-  left:1.25rem;
+  top: 1.25rem;
+  left: 1.25rem;
 }
 
 .portfolio_item_info {
@@ -284,13 +282,12 @@ main {
 }
 
 /* BLOG SECTION CSS Start   */
-
 .blog-section {
-  padding-top:3.125rem;
+  padding-top: 3.125rem;
 }
 
 .blog-items {
-  margin-top:3.125rem;
+  margin-top: 3.125rem;
 }
 
 .blog-item {
@@ -320,7 +317,7 @@ main {
 
 .blog-item-main-info span {
   font-size: 14px;
-  margin-right:1.875rem;
+  margin-right: 1.875rem;
   font-weight: lighter;
 }
 
@@ -329,16 +326,16 @@ main {
 }
 
 .blog-item-titile {
-  font-size:1.25rem;
-  margin-top:1.25rem;
-  margin-bottom:0.94rem;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.94rem;
   color: #05364d;
   font-weight: 700;
 }
 
 .blog-item__description {
   font-size: 0.64rem;
-  line-height:1.69rem;
+  line-height: 1.69rem;
   font-weight: lighter;
 }
 
@@ -355,9 +352,8 @@ main {
 }
 
 /* PARTNERS SECTION CSS Start  */
-
 .partners-section {
-  padding-top:6.25rem;
+  padding-top: 6.25rem;
 }
 
 .partner {
@@ -365,3 +361,144 @@ main {
   padding: 0 1.875rem;
 }
 
+/* MEDIA QUERI CSS Start   */
+@media only screen and (max-width:991px){
+   /* MAIN Section responsive start  */
+   .hero-img {
+    display: none;
+  }
+
+  .hero-section > div {
+    width: 100%;
+  }
+  /* STATISTICS Section responsive start  */
+  .statistics-section{
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+   /* AboutMe Section responsive start  */
+   .abouteMe-section {
+    padding: 1.5rem 0;
+  }
+
+  .abouteMe-section > div {
+    width: 100%;
+  }
+
+  .aboutMe-img-wrap img {
+    display: none;
+  }
+
+    /* SERVICES Section responsive start  */
+    .services-section {
+      padding: 1.5rem 0;
+    }
+
+    
+  .services__card {
+    width:45%;
+    margin-bottom: 20px;
+  }
+  
+  /* CLIENT Section responsive start */
+  .clients-section {
+    padding: 1.5rem 0;
+  }
+
+  .clients_list > div {
+    width: 100%;
+    float: none;
+  }
+
+  /* BLOG Section responsive start   */
+  .blog-section {
+    padding: 1.5rem 0;
+  }
+
+  .blog-item{
+    width:45%;
+    margin-bottom: 20px;
+  }
+
+    /* PARTNERS Section responsive start */
+.partners-section{
+  padding: 1.5rem 0;
+}
+
+.partner{
+  display: block;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* MAIN Section responsive start  */
+  .main-banner {
+    background: none;
+    min-height: auto;
+  }
+
+  /* HERO Section responsive start  */
+  .hero-wrap {
+    padding: 5rem 0;
+  }
+
+  .hero-section {
+    padding: 0;
+  }
+
+  .hero-heading{
+    font-size: 3rem;
+  }
+
+  .site-button {
+    display: none;
+  }
+
+  .hero-social-networks{
+    text-align: center;
+  }
+
+  /* STATISTICS Section responsive start  */
+  .statistics-content {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+
+  /* SERVICES Section responsive start  */
+
+  .services__card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* PORTFOLIO Section responsive start */
+  .portfolio-section {
+    padding: 1.5rem 0;
+  }
+
+  .portfolio_item {
+    width: 100%;
+  }
+
+  .portfolio_item-2,
+  .portfolio_item-3 {
+    position: static;
+  }
+
+  /* BLOG Section responsive start   */
+  .blog-item{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+}
