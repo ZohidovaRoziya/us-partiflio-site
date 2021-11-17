@@ -77,7 +77,6 @@
   }
   
   /* SITE HEADER CSS Start  */
-  
   .site-header {
     width: 100%;
     position: fixed;
@@ -127,7 +126,7 @@
 
 
   /* SITE MAIN CSS START */
-main {
+.site-main {
     flex-grow: 1;
 }
 
