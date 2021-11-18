@@ -316,9 +316,8 @@ main {
 }
 
 .blog-item-main-info span {
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 1.875rem;
-  font-weight: lighter;
 }
 
 .blog-item-main-info i {
@@ -334,9 +333,8 @@ main {
 }
 
 .blog-item__description {
-  font-size: 0.64rem;
+  font-size: 1rem;
   line-height: 1.69rem;
-  font-weight: lighter;
 }
 
 .blog-item-link {
