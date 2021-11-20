@@ -170,6 +170,10 @@
   .clearfix {
     clear: both;
   }
+
+  a {
+    transition: all 0.3s ease-in-out;
+  }
   
   .to-uppercase {
     text-transform: uppercase;
@@ -214,6 +218,7 @@
     border: none;
     border-radius: 5px;
     color: #fff;
+    transition: all 0.3s ease-in-out;
   }
   
   .site-button:hover {
